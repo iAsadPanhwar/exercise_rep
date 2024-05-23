@@ -1,31 +1,12 @@
-Real-time Exercise Rep Counter
+##Overview
 
-Overview
-This project is a real-time exercise repetition counter using computer vision techniques. It utilizes OpenCV and MediaPipe to detect and track human poses in video streams, specifically focusing on exercises involving dumbbells. The system counts the number of repetitions performed by the user in real-time.
+The Real-time Exercise Rep Counter is a computer vision project designed to count exercise repetitions in real-time using video input. Leveraging the power of OpenCV and MediaPipe, this system detects and tracks human poses, particularly focusing on exercises involving dumbbells.
 
-Features
-Real-time pose detection and tracking
-Accurate counting of exercise repetitions
-Visual feedback of detected poses and rep count overlayed on the video stream
-Simple and easy-to-understand implementation
-Requirements
-Python 3.x
-OpenCV
-MediaPipe
-Installation
-Clone the repository:
+##Key features of the project include:
 
-bash
-Copy code
-git clone https://github.com/your-username/realtime-rep-counter.git
-Install the required dependencies:
+#Real-time Pose Detection: Utilizes MediaPipe to accurately detect and track human poses in video streams.
+Rep Counting: Counts the number of exercise repetitions performed by the user in real-time.
+#Visual Feedback: Provides visual feedback by overlaying detected poses and rep count on the video stream.
+#Easy-to-use Implementation: Offers a simple and straightforward implementation for easy setup and usage.
+With its ability to provide instant feedback on exercise performance, the Real-time Exercise Rep Counter is a valuable tool for fitness enthusiasts, trainers, and anyone looking to monitor and improve their workout routines.
 
-bash
-Copy code
-python rep_counter.py
-Open the provided video file or use a live webcam feed to start detecting and counting exercise repetitions in real-time.
-
-Demo
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
